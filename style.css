@@ -1,4 +1,57 @@
 body {
-    background-color: rgb(204, 196, 163);
-    overflow: hidden;  
+    background-color: #b9b0a9;
+    /* overflow: hidden;   */
 }
+.convs {
+    
+    display: flex;
+    justify-content: center;
+    /* position: relative;
+    top: 20px; */
+}
+.conv {
+    width: 140px;
+    user-select: none;
+    cursor: pointer;
+    /* scale: 0.2; */
+    /* transition: 8s; */
+}
+.flows {
+    width: 100%;
+    position: relative;
+    top: 200px;
+    display: flex;
+    justify-content: space-around;
+    opacity: 0;
+    transition: 1s;
+}
+.flow {
+    transition: 1s;
+}
+.march{
+    position: absolute;
+    top: -120px;
+
+    font-size: 110px !important;
+    font-family: 'Comfortaa';
+}
+.odin{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(255, 103, 103);
+    color:black;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 360px;
+    scale: 5;
+    left: 170px;
+    border-radius: 50%;
+    opacity: 0;
+}
+/* .conv:hover {
+    transform: rotateZ(1440deg);
+    scale:5.0;
+} */
